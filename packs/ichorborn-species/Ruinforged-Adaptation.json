@@ -1,0 +1,35 @@
+{
+  "name": "Ruinforged Adaptation",
+  "type": "feat",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your body harmonizes with destructive resonance. You gain resistance to force damage.</p>"
+    },
+    "requirements": "RuinTouched Ichorborn",
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Ruinforged Adaptation",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "force",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
