@@ -1,0 +1,36 @@
+{
+  "name": "Ichor Adaptation",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your body has stabilized around divine ichor. You can survive on minimal water, endure harsh climates, and your physiology is resistant to environmental extremes. You have advantage on saving throws against exhaustion caused by heat, cold, or dehydration.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Ichor Adaptation",
+      "icon": "icons/svg/mystery-man.svg",
+      "origin": "",
+      "disabled": false,
+      "duration": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.advantage.ability.save.con",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
