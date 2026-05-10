@@ -1,0 +1,41 @@
+{
+  "name": "Ichorborn",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Children of the Sundering Wastes.</strong> When divine ichor seeped into the broken sands, some lives twisted, adapted, and stabilized into a new lineage. The Ichorborn are hardy, perceptive, and touched by lingering divine resonance.</p><p>You are an Ichorborn. You gain the core traits listed below. Your subspecies grants additional traits.</p>"
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "level": 0,
+        "configuration": {
+          "items": [
+            "Compendium.triakis-ichorborn.ichorborn-species.Ichor-Adaptation",
+            "Compendium.triakis-ichorborn.ichorborn-species.Sundered-Resilience",
+            "Compendium.triakis-ichorborn.ichorborn-species.Ichor-Sense"
+          ]
+        }
+      }
+    ],
+    "movement": {
+      "walk": 30
+    },
+    "senses": {
+      "darkvision": 60
+    },
+    "size": "med",
+    "subspecies": [
+      "Compendium.triakis-ichorborn.ichorborn-species.SandWrought",
+      "Compendium.triakis-ichorborn.ichorborn-species.RuinTouched",
+      "Compendium.triakis-ichorborn.ichorborn-species.ChoirlessMarked"
+    ],
+    "source": {
+      "book": "Triakis Campaign Sourcebook",
+      "page": 0
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
