@@ -1,0 +1,35 @@
+{
+  "name": "RuinTouched",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Marked by echoes of devastation.</strong> RuinTouched Ichorborn resonate with the psychic scars of the Sundering. Their senses sharpen around entropy, and their bodies hum with faint, unstable power.</p>"
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "level": 0,
+        "configuration": {
+          "items": [
+            "Compendium.triakis-ichorborn.ichorborn-species.Ruin-Echo",
+            "Compendium.triakis-ichorborn.ichorborn-species.Ruin-Sight"
+          ]
+        }
+      }
+    ],
+    "movement": {
+      "walk": 30
+    },
+    "senses": {
+      "tremorsense": 10
+    },
+    "size": "med",
+    "source": {
+      "book": "Triakis Campaign Sourcebook",
+      "page": 0
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
