@@ -1,0 +1,36 @@
+{
+  "name": "Sundered Resilience",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your body retains a fragment of divine durability. You have resistance to necrotic damage.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Sundered Resilience",
+      "icon": "icons/svg/mystery-man.svg",
+      "origin": "",
+      "disabled": false,
+      "duration": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
