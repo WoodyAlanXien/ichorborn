@@ -1,0 +1,34 @@
+{
+  "name": "Ruin Sight",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your eyes perceive structural weakness and lingering entropy. You gain tremorsense out to 10 feet.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Ruin Sight",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.senses.tremorsense",
+          "mode": 2,
+          "value": "10",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
