@@ -1,0 +1,33 @@
+{
+  "name": "ChoirlessMarked",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Born in silence where divinity once sang.</strong> Choirless Ichorborn carry a null‑field resonance that dampens magic and emotion alike. Their presence is unsettling, their stillness unnatural.</p>"
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "level": 0,
+        "configuration": {
+          "items": [
+            "Compendium.triakis-ichorborn.ichorborn-species.Choirless-Stillness",
+            "Compendium.triakis-ichorborn.ichorborn-species.Choirless-Null-Field"
+          ]
+        }
+      }
+    ],
+    "movement": {
+      "walk": 30
+    },
+    "senses": {},
+    "size": "med",
+    "source": {
+      "book": "Triakis Campaign Sourcebook",
+      "page": 0
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
