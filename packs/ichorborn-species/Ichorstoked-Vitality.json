@@ -1,0 +1,36 @@
+{
+  "name": "Ichorstoked Vitality",
+  "type": "feat",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your ichor surges with renewed strength. Your hit point maximum increases by an amount equal to your level, and it increases by 1 again whenever you gain a level.</p>"
+    },
+    "requirements": "Ichorborn",
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Ichorstoked Vitality",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.level",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "stackable": false
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
