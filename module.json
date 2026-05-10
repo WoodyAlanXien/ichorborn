@@ -1,0 +1,25 @@
+{
+  "name": "triakis-ichorborn",
+  "title": "Triakis – Ichorborn Species Pack",
+  "description": "Species, subspecies, traits, and feats for the Ichorborn of Triakis, built for the D&D5e 5.2.5 species system.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Thomas Alan Wood"
+    }
+  ],
+  "packs": [
+    {
+      "name": "ichorborn-species",
+      "label": "Triakis – Ichorborn Species",
+      "path": "packs/ichorborn-species",
+      "type": "Item",
+      "system": "dnd5e",
+      "private": false
+    }
+  ]
+}
