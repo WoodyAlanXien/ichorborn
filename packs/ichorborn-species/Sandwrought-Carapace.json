@@ -1,0 +1,41 @@
+{
+  "name": "Sandwrought Carapace",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your skin hardens into mineralized plates. When you are not wearing armor, your AC equals 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Sandwrought Carapace",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "natural",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.ac.flat",
+          "mode": 5,
+          "value": "13",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "stackable": false
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
