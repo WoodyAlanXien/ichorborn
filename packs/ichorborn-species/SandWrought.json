@@ -1,0 +1,34 @@
+{
+  "name": "SandWrought",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Forged by shifting dunes and relentless heat.</strong> SandWrought Ichorborn are hardened by abrasive winds and sun‑scoured stone. Their bodies carry a mineralized sheen, and their movements echo the fluidity of drifting sand.</p>"
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "level": 0,
+        "configuration": {
+          "items": [
+            "Compendium.triakis-ichorborn.ichorborn-species.Sandwrought-Carapace",
+            "Compendium.triakis-ichorborn.ichorborn-species.Sandwrought-Burrow"
+          ]
+        }
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "burrow": 10
+    },
+    "senses": {},
+    "size": "med",
+    "source": {
+      "book": "Triakis Campaign Sourcebook",
+      "page": 0
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
