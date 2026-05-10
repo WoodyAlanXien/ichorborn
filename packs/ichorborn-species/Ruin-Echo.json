@@ -1,0 +1,15 @@
+{
+  "name": "Ruin Echo",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>You resonate with lingering destructive energy. Once per long rest, when you deal damage with an attack or spell, you can deal extra necrotic damage equal to your proficiency bonus.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
