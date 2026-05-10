@@ -1,0 +1,34 @@
+{
+  "name": "Sandwrought Burrow",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>You can burrow through sand, loose soil, and ash. You gain a burrow speed of 10 feet. You do not leave a tunnel unless you choose to.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Sandwrought Burrow",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 2,
+          "value": "10",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
