@@ -1,0 +1,16 @@
+{
+  "name": "Avatar's Echo",
+  "type": "feat",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>A fragment of divine resonance awakens within you. Once per long rest, when you make an attack roll, ability check, or saving throw, you can add a bonus equal to your proficiency bonus.</p>"
+    },
+    "requirements": "Ichorborn",
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [],
+  "flags": {}
+}
