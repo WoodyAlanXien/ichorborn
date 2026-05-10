@@ -1,0 +1,36 @@
+{
+  "name": "Ichor Sense",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>You can feel the subtle pulse of divine residue in the world. You gain proficiency in the Perception skill. If you are already proficient, your proficiency bonus is doubled for Perception checks.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Ichor Sense",
+      "icon": "icons/svg/mystery-man.svg",
+      "origin": "",
+      "disabled": false,
+      "duration": {},
+      "changes": [
+        {
+          "key": "system.skills.prc.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
