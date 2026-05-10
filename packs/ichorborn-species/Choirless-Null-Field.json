@@ -1,0 +1,34 @@
+{
+  "name": "Choirless Null Field",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>A faint antimagic resonance surrounds you. You have advantage on saving throws against being charmed or frightened, and magic cannot read your thoughts or emotions unless you allow it.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Choirless Null Field",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "flags.midi-qol.advantage.ability.save.wis",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
