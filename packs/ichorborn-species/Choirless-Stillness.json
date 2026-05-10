@@ -1,0 +1,34 @@
+{
+  "name": "Choirless Stillness",
+  "type": "trait",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your presence is unnervingly quiet. You gain proficiency in Stealth. If you are already proficient, your proficiency bonus is doubled for Stealth checks.</p>"
+    },
+    "source": {
+      "book": "Triakis Campaign Sourcebook"
+    }
+  },
+  "effects": [
+    {
+      "label": "Choirless Stillness",
+      "icon": "icons/svg/mystery-man.svg",
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.ste.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "dae": {
+          "transfer": true
+        }
+      }
+    }
+  ],
+  "flags": {}
+}
